@@ -1,0 +1,22 @@
+
+CREATE TABLE SensorData (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    temp_val VARCHAR(10),
+    hum_val VARCHAR(10),
+    pm25_val VARCHAR(10),
+    pm10_val VARCHAR(10),
+    vbat_val VARCHAR(10),
+    vsol_val VARCHAR(10),
+    reading_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+)
+
+CREATE TABLE CurrentSensorData (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    temp_val VARCHAR(10),
+    hum_val VARCHAR(10),
+    pm25_val VARCHAR(10),
+    pm10_val VARCHAR(10),
+    vbat_val VARCHAR(10),
+    vsol_val VARCHAR(10),
+    reading_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+)
