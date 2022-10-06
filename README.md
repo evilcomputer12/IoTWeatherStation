@@ -1,2 +1,2 @@
 # IoTWeatherStation
-IoTWeatherStationCommercialProject
+IoTWeatherStation
